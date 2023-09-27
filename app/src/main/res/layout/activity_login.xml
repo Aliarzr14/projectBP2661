@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientatio="vertical"
+    android:background="#FF7F00">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="243dp"
+        android:layout_height="121dp"
+        app:srcCompat="@drawable/read"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="166dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:text="LOGIN"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Username"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="216dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="297dp"
+        tools:text="lia" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="113dp"
+        android:layout_height="47dp"
+        android:text="Login"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
